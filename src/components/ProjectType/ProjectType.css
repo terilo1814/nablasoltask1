@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.project-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-type-title {
+    text-align: center;
+}
+
+.project-type-subtitle {
+    color: gray;
+    font-weight: 300;
+    margin: 8px 5px 15px 5px;
+    text-align: center;
+}
+
+.project-type-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.project-type-option {
+    padding: 13px 20px;
+    border: none;
+    flex: 1;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    white-space: nowrap;
+}
+
+.project-type-option.active {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.project-type-option:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+.project-type-option:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+.header-left {
+    text-align: left;
+    padding: 0px;
+}
+
+.hourly-subtitle,
+.budget-subtitle {
+    color: gray;
+    font-weight: 300;
+    margin: 5px 0px 10px 0px;
+    font-size: 13px;
+}
+
+.hourly-rate-container {
+    display: flex;
+    gap: 20px;
+}
+
+.input-dropdown {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-top: 8px;
+    color: gray;
+}
+
+.input-dropdown:focus {
+    outline: 1px solid #007bff;
+}
+
+.amount {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-top: 8px;
+    color: gray;
+}
+
+.focusAmount {
+    padding: 8px;
+    border-radius: 5px;
+    outline: 1px solid #007bff;
+    margin-top: 8px;
+    color: gray;
+
+}
+
+.focusAmount input {
+    border: none;
+    outline: none;
+    color: gray;
+    width: 100px;
+}
+
+
+.rupee-symbol {
+    margin-right: 5px;
+    color: gray
+}
+
+.amount input {
+    border: none;
+    outline: none;
+    width: 100px;
+    color: gray;
+}
+
+.amount input:focus {
+    border: none;
+    outline: none;
+}
+
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 10px 0px
+}
+
+.custom-checkbox {
+    padding: 5px;
+    color: gray;
+    font-size: 14px;
+}
+
+input {
+    margin-right: 5px;
+}
+
+.percent-value {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: gray;
+    margin: 0px 5px 0px 7px;
+    background-color: transparent;
+    width: 17%;
+}
